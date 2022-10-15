@@ -1,0 +1,33 @@
+<!-- callback is a function that pass through another function as an argument and that particular function execute later  -->
+<!-- It means when perform multiple tasks at a time then we have a concept of callback function achieve -->
+<!-- eg:When we want to apply multiple effect on an image but the thing is second effect is apply after the first one  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img{
+            height: 250px;
+            width: 250px;
+            opacity: 0.4;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jQuery callbacks and chainig</h1>
+    <div>
+        <button id="btn">Animate</button>
+    </div>
+    <img src="/Images/J1.png" alt="javascript" id="img">
+    <br>
+    <br>
+   
+</body>
+<script src="/jquery.js" type="text/javascript"></script>
+<script src="callback.js" type="text/javascript"></script>
+</html>
